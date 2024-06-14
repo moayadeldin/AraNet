@@ -3,7 +3,7 @@ import optparse
 import os, json
 import numpy as np
 import pandas as pd
-from keras.preprocessing.sequence import pad_sequences
+from keras_preprocessing.sequence import pad_sequences
 import torch
 from torch import nn
 from torch.utils.data import DataLoader, TensorDataset

@@ -9,10 +9,10 @@ setup(name='aranet',
       license='GNU',
       packages=['aranet'],
       install_requires=[
-          'tensorflow-gpu',
+          'tensorflow',
           'torch',
           'sklearn',
-          'transformers==2.3.0', 'keras', 'pandas', 'numpy'
+          'transformers==2.3.0', 'keras', 'pandas', 'numpy', 'Keras-Preprocessing'
       ],
 
       entry_points={
